@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/text_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CODE"
+            android:layout_below="@+id/text_country"
+            android:textColor="@color/black"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_number"
+            android:layout_width="100dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="310dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="0">
+    </TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
